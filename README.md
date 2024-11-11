@@ -17,11 +17,6 @@ This course covers the essential principles of building a high-performance full-
 - **Game Rating System**: Users can rate games based on their personal experience.
 - **Wishlist**: Users can save their favorite games.
 
-
-## GitHub Repository
-
-- **Project Repository**: [Visit the Repository](https://github.com/mansour-elbash/gaming-...)
-
 ---
 
 ## Topics Covered in the Crash Course
