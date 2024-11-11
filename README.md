@@ -1,4 +1,4 @@
-# Full-Stack Gaming App Tutorial (Part 1)
+# Full-Stack Gaming App Tutorial using NEXTJS & MongoDB
 
 This course covers the essential principles of building a high-performance full-stack application using the latest best practices. The project idea is to create an app that:
 
