@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  background: linear-gradient(43deg, rgba(0, 137, 255, 1) 0%, rgba(0, 97, 214, 1) 25%, rgba(0, 51, 102, 1) 50%, rgba(0, 97, 214, 1) 75%, rgba(0, 137, 255, 1) 100%);
+}
+
+@layer base {
+  :root {
+    --background: 210 100% 98%; /* Light Blue */
+    --foreground: 210 15% 15%; /* Dark Blue */
+    --card: 210 100% 98%; /* Light Blue Card Background */
+    --card-foreground: 210 15% 15%; /* Dark Blue Card Text */
+    --popover: 210 100% 98%; /* Light Blue Popover */
+    --popover-foreground: 210 15% 15%; /* Dark Blue Popover Text */
+    --primary: 210 100% 50%; /* Pure Blue */
+    --primary-foreground: 210 100% 95%; /* Light Blue Text */
+    --secondary: 210 100% 90%; /* Very Light Blue */
+    --secondary-foreground: 210 30% 10%; /* Dark Blue for Secondary Text */
+    --muted: 210 100% 90%; /* Muted Blue */
+    --muted-foreground: 210 40% 30%; /* Muted Dark Blue */
+    --accent: 210 100% 90%; /* Accent Blue */
+    --accent-foreground: 210 40% 10%; /* Darker Accent Blue Text */
+    --destructive: 0 100% 60%; /* Red for destructive actions */
+    --destructive-foreground: 0 100% 97%; /* Light Text for destructive actions */
+    --border: 210 15% 70%; /* Blue border */
+    --input: 210 10% 85%; /* Light blue for input fields */
+    --ring: 210 100% 50%; /* Blue Ring */
+    --radius: 0.5rem;
+    --chart-1: 210 76% 50%; /* Blue Chart Color */
+    --chart-2: 210 60% 45%; /* Slightly Darker Blue */
+    --chart-3: 210 40% 40%; /* Darker Blue */
+    --chart-4: 210 70% 55%; /* Light Blue */
+    --chart-5: 210 50% 60%; /* Blue */
+  }
+
+  .dark {
+    --background: 210 10% 10%; /* Dark Blue */
+    --foreground: 210 100% 90%; /* Light Blue Text */
+    --card: 210 40% 20%; /* Darker Blue for cards */
+    --card-foreground: 210 100% 95%; /* Light Blue Card Text */
+    --popover: 210 40% 20%; /* Dark Blue Popover */
+    --popover-foreground: 210 100% 95%; /* Light Blue Popover Text */
+    --primary: 210 100% 50%; /* Blue */
+    --primary-foreground: 210 100% 95%; /* Light Blue Text */
+    --secondary: 210 30% 20%; /* Darker Blue for secondary elements */
+    --secondary-foreground: 210 60% 85%; /* Light Blue for secondary text */
+    --muted: 210 40% 15%; /* Muted Dark Blue */
+    --muted-foreground: 210 60% 30%; /* Muted Blue Text */
+    --accent: 210 50% 40%; /* Accent Dark Blue */
+    --accent-foreground: 210 100% 85%; /* Light Blue Text for accent */
+    --destructive: 0 100% 60%; /* Red for destructive actions */
+    --destructive-foreground: 0 100% 97%; /* Light Text for destructive actions */
+    --border: 210 15% 60%; /* Darker Blue Border */
+    --input: 210 15% 70%; /* Light Blue Input */
+    --ring: 210 100% 50%; /* Blue Ring */
+    --chart-1: 210 60% 55%; /* Blue Chart Color */
+    --chart-2: 210 50% 50%; /* Darker Blue */
+    --chart-3: 210 40% 60%; /* Deep Blue */
+    --chart-4: 210 70% 65%; /* Soft Light Blue */
+    --chart-5: 210 80% 45%; /* Bright Blue */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
