@@ -24,7 +24,6 @@ This course covers the essential principles of building a high-performance full-
 - **Professional Layout Design**: Learn how to design clean and modern layouts.
 - **Reusable Components**: Create components that can be used across multiple parts of the app.
 - **Next.js Performance Optimization**: Improve app performance for faster load times.
-- **CRUD Operations**: Implement Create, Read, Update, and Delete operations.
 - **Fetching Data (Server-Side & Client-Side)**: Learn how to fetch data from the server and client using Tanstack Query.
 - **JWT Authentication**: Secure your app with JWT for user authentication.
 - **Authorization**: Set up user roles and permissions.
@@ -37,7 +36,6 @@ This course covers the essential principles of building a high-performance full-
 - **Mongoose Database Setup**: Connect to MongoDB using Mongoose and perform CRUD operations.
 - **Form Handling**: Learn how to handle forms and submit data on the frontend.
 - **Cloudinary File Uploads**: Upload images and files to Cloudinary.
-- **Custom Hooks**: Set up custom React hooks for better state management.
 - **Sync Local Storage with State**: Keep local storage synchronized with app state.
 
 ---
